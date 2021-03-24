@@ -4,7 +4,7 @@ module.exports = {
 			name: 'Red DiscordBot',
 			exec_mode: 'cluster',
 			instances: 2, // Or a number of instances
-			script: 'redbot "nehalem"',
+			script: 'redbot nehalem',
 			args: 'start',
 			watch: true,
 			env: {
