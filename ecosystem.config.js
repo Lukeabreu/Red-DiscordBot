@@ -4,7 +4,8 @@ module.exports = {
 			name: 'Red DiscordBot',
 			exec_mode: 'cluster',
 			instances: 2, // Or a number of instances
-			script: 'redbot --name “Nehalem" --interpreter "/home/forge/redenv/bin/python" --interpreter-args "-O" -- nehalem --no-prompt',
+			interpreter:  '/home/forge/redenv/bin/python',
+			script: 'redbot nehalem',
 			args: 'start',
 			watch: true,
 		}
